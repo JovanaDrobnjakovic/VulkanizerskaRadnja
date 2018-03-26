@@ -59,7 +59,7 @@ public class AutoGuma {
 	 * @param precnik nova vrednost za precnik gume
 	 * 
 	 * @throws java.lang.RuntimeException ako je 
-	 * unet precnik manji od 13 i veci od 22
+	 * unet precnik manji od 13 ili veci od 22
 	 */
 	public void setPrecnik(int precnik) {
 		if (precnik < 13 || precnik > 22)
@@ -79,7 +79,7 @@ public class AutoGuma {
 	 * @param sirina nova vrednost za sirinu gume
 	 * 
 	 * @throws java.lang.RuntimeException ako je 
-	 * uneta sirina manja od 135 i veca od 355
+	 * uneta sirina manja od 135 ili veca od 355
 	 */
 	public void setSirina(int sirina) {
 		if (sirina < 135 || sirina > 355)
